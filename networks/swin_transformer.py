@@ -386,7 +386,7 @@ class FinalPatchExpand_X4(nn.Module):
 
 
 
-class simpleLN(nn.Module):
+class PatchFusing(nn.Module):
     def __init__(self, in_dim, out_dim, norm_layer=nn.LayerNorm):
         super().__init__()
         self.dim = in_dim
@@ -912,14 +912,14 @@ class nestedtransformer(nn.Module):
         self.wa20 = copy.deepcopy(self.layers[0]) # BasicLayer(96, 96, (56, 56), 1, 3)
         self.wa20.downsample = torch.nn.Identity()
 
-        self.ln12 = simpleLN(384*2, 384)
-        self.ln11 = simpleLN(192*2, 192)
-        self.ln10 = simpleLN(96*2, 96)
+        self.ln12 = PatchFusing(384*2, 384)
+        self.ln11 = PatchFusing(192*2, 192)
+        self.ln10 = PatchFusing(96*2, 96)
 
-        self.ln21 = simpleLN(192*3, 192)
-        self.ln20 = simpleLN(96*3, 96)
+        self.ln21 = PatchFusing(192*3, 192)
+        self.ln20 = PatchFusing(96*3, 96)
 
-        self.ln30 = simpleLN(96*4, 96)
+        self.ln30 = PatchFusing(96*4, 96)
 
         if self.final_upsample == "expand_first":
             print("---final upsample expand_first---")
