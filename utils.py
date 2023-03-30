@@ -8,7 +8,6 @@ import SimpleITK as sitk
 import math
 from torch.optim.lr_scheduler import _LRScheduler
 
-
 class CosineAnnealingWarmupRestarts(_LRScheduler):
     """
         optimizer (Optimizer): Wrapped optimizer.
