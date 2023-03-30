@@ -6,8 +6,7 @@ The codes for the coursework project "NesTR: Nested Transformer for Medical Imag
 
 ## 2. Prepare data
 
-- The datasets we used are provided by TransUnet's authors. Please go to ["./datasets/README.md"](datasets/README.md) for details, or please send an Email to jienengchen01 AT gmail.com to request the preprocessed data. If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
-
+- The datasets we used are provided by TransUnet's authors. Please go to ["./datasets/README.md"](datasets/README.md).
 ## 3. Environment
 
 - Please prepare an environment with python=3.7, and then use the command "pip install -r requirements.txt" for the dependencies.
