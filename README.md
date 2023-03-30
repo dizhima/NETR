@@ -28,7 +28,7 @@ sh visualization.sh
 ```
 
 ## Reproducibility
-The reported model weight is [here](https://drive.google.com/file/d/1t6d6yM1aigPVioXn_NBNRr-DEFPls7nG/view?usp=sharing)
+The reported model weight is [here](https://drive.google.com/drive/folders/1pvYnY9pefHoLDeCrXaRvB8hx8XTHExTz?usp=sharing)
 
 ## References
 * [SwinUnet](https://github.com/HuCaoFighting/Swin-Unet)
