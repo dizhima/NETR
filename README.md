@@ -1,5 +1,5 @@
-# NesTR
-The codes for the coursework project "NesTR: Nested Transformer for Medical Image Segmentation" of PURDUE UNIVERSITY ECE 69500: ML In Bioinfo And Healthcare. 
+# NETR
+The codes for the coursework project "NETR: Nested Transformer for Medical Image Segmentation" of PURDUE UNIVERSITY ECE 69500: ML In Bioinfo And Healthcare. 
 
 ## 1. Download pre-trained swin transformer model (Swin-T)
 * [Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
