@@ -2,7 +2,7 @@
 The codes for the coursework project "NETR: Nested Transformer for Medical Image Segmentation" of PURDUE UNIVERSITY ECE 69500: ML In Bioinfo And Healthcare. 
 
 ## 1. Download pre-trained swin transformer model (Swin-T)
-* [Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
+* [Get pre-trained model in this link](https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
 
 ## 2. Prepare data
 
@@ -10,6 +10,10 @@ The codes for the coursework project "NETR: Nested Transformer for Medical Image
 ## 3. Environment
 
 - Please prepare an environment with python=3.7, and then use the command "pip install -r requirements.txt" for the dependencies.
+
+```bash
+pip install -r requirements.txt
+```
 
 ## 4. Train, Test, visualization
 
